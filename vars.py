@@ -6,10 +6,10 @@ API_ID = int(os.environ.get("API_ID", "3140089"))
 API_HASH = os.environ.get("API_HASH", "ef67c500cfbd85b764535cf1c8c9917f")
 BOT_TOKEN = os.environ.get("BOT_TOKEN", "7757999921:AAHLHJ5ZeIzaX76Oe6e9MsyjcAEkOcAWXKI")
 
-CREDIT = os.environ.get("CREDIT", "⌯ FʀᴏɴᴛMᴀɴ | ×͜× |")
+CREDIT = os.environ.get("CREDIT", "⌯ Prunus | ×͜× |")
 # MongoDB Configuration
-DATABASE_NAME = os.environ.get("DATABASE_NAME", "DevThanos")
-DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://Dev-Thanos")  # Add your own atlas db
+DATABASE_NAME = os.environ.get("DATABASE_NAME", "Cluster0")
+DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://prunus143_db_user:prunus143_db_user@cluster0.uuuzqv0.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")  # Add your own atlas db
 MONGO_URL = DATABASE_URL  # For auth system
 
 # Owner and Admin Configuration
@@ -59,6 +59,7 @@ Please contact the admin @ItsUGBot to get access.</blockquote>""",
 
 <blockquote>Use format: {format}</blockquote>"""
 }
+
 
 
 
